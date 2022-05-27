@@ -1,0 +1,122 @@
+@media only screen and (min-width: 600px) {
+    /* tablet */
+    a {
+        margin-top: 90%;
+    }
+}
+@media screen and (min-width: 375px) and (max-width: 599px) {
+    /* smartphoone */
+    a {
+        padding: 8px 10px;;
+        margin-top: 150%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    /* laptop */
+    a {
+        margin-top: 55%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    /* desktop xl */
+    a {
+        margin-top: 45%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media only screen and (min-width: 600px) {
+    /* tablet 
+
+    .container {
+        position: relative;
+        width: 100%;
+        margin-top: 50%;
+    }
+
+}
+@media screen and (min-width: 375px) and (max-width: 599px) {
+    /* smartphoone 
+    .next-pagess{
+        margin-top: 0px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    /* laptop 
+
+}
+@media only screen and (min-width: 1200px) {
+    /* desktop xl 
+    .card{
+        position: relative;
+        width: 50px;
+    }
+    .inside{
+        position: relative;
+        width: 50%;
+    }
+    .inside p{
+        font-size: 5px;
+    }
+    .front, .back{
+        position: relative;
+        width: 50%;
+    }
+    .cake {
+        position: relative;
+        width: 90%;
+    }
+}
+/*
+.card{
+    position: relative;
+    width: 50px;
+}
+.inside{
+    position: relative;
+    width: 50%;
+}
+.inside p{
+    font-size: 5px;
+}
+.front, .back{
+    position: relative;
+    width: 50%;
+}
+.cake {
+    position: relative;
+    width: 90%;
+}

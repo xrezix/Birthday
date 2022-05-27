@@ -1,0 +1,53 @@
+@media only screen and (min-width: 600px) {
+    /* tablet */
+    .main{
+        width: 100%; 
+        font-size: 25px; 
+    }
+    .main p{
+        font-size: 20px;
+    }
+    .next-page {
+        margin-top: 50%;
+    }
+
+}
+@media screen and (min-width: 375px) and (max-width: 599px) {
+    /* smartphoone */
+    .main{
+        width: 100%; 
+        font-size: 15px; 
+    }
+    .main p{
+        font-size: 16px;
+    }
+    .next-page {
+        margin-top: 75%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    /* laptop */
+    .main {
+        width: 100%;
+        font-size: 35px;
+    }
+    .main p{
+        font-size: 25px;
+    }
+    .next-page {
+        margin-top: 30%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    /* desktop xl */
+    .main {
+        width: 100%;
+        font-size: 45px;
+    }
+    .main p{
+        font-size: 35px;
+    }
+    .next-page {
+        margin-top: 15%;
+    }
+}

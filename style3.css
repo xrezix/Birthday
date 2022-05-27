@@ -1,0 +1,48 @@
+body, html {
+    display: block;
+    width: 100%;
+    height:  100%;
+    background: url("wp pink.jpg");
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+img {
+    position: absolute;
+    width: 305px;
+    height: 350px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+div {
+    margin-top: 130px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.typing1, h1{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    letter-spacing: 5px;
+    background: linear-gradient(90deg, pink,yellow,#00fc82,#3dd4d4);
+    -webkit-background-clip: text;
+    background-size: 1000%;
+    transform-origin: right;
+    color: transparent;
+    animation: feb 15s linear infinite;
+}
+@keyframes feb {
+    0%{
+        background-position: 100% 0%;
+    }
+    50%{
+        background-position: 0% 100%;
+    }
+    100%{
+        background-position: 100% 0%;
+    }
+}
